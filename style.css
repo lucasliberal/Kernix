@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: #060C1C;
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/background-image_manutencao.webp");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;    
+
+    display: flex;
+
+    justify-content: left;
+    align-items: center;
+}
+
+h1, p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+    width: 300px;
+}
+
+.icons{
+    color: white;
+}
+
+.container{
+    border: 1px solid green;
+    margin-left: 10%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid red;
+}
+
+.contact{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 50px;
+    font-size: 30px;
+    gap: 12px;
+}
+
+#caution-icon{
+    font-size: 60px ;
+}
