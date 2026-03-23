@@ -21,32 +21,37 @@
         }
     </script>
 </head>
+<body class="m-0 min-h-dvh w-full bg-[#060C1C] bg-[url('assets/background-image_manutencao.webp')] bg-no-repeat bg-center bg-cover md:bg-right md:bg-contain flex flex-col font-sans">
 
-<body class="m-0 h-screen w-full bg-[#060C1C] bg-[url('assets/background-image_manutencao.webp')] bg-no-repeat bg-center bg-cover md:bg-right md:bg-contain flex flex-col justify-center font-sans">
-
-    <div class="w-[400px] mx-auto md:ml-[10%] md:mx-auto text-center md:text-center bg-[#060C1C] p-4 rounded-xl border border-4 border-[#6AAEFF] shadow-[0_0_30px_rgba(106,174,255,0.5)]">
+    <main class="flex flex-col justify-center items-center md:items-start flex-grow p-4">
         
-        <div class="flex flex-col w-full">
-            <i class="fa-solid fa-triangle-exclamation text-white text-[60px]" id="caution-icon"></i>
-            <h1 class="text-white text-4xl font-bold mt-2">EM CONSTRUÇÃO</h1>
+        <div class="w-full max-w-[400px] md:ml-[10%] bg-[#060C1C] p-6 rounded-xl border-4 border-[#6AAEFF] shadow-[0_0_30px_rgba(106,174,255,0.5)]">
+            
+            <div class="flex flex-col w-full text-center">
+                <i class="fa-solid fa-triangle-exclamation text-white text-[60px]" id="caution-icon"></i>
+                <h1 class="text-white text-4xl font-bold mt-2">EM CONSTRUÇÃO</h1>
+            </div>
+
+            <p class="text-white w-full leading-relaxed mt-10 text-left">
+                Estamos arquitetando nossa base. Em breve, soluções em tecnologia e desenvolvimento de alto nível para o seu negócio.
+            </p>
+        
+            <div class="w-full flex flex-row gap-4 mt-10 text-[30px] justify-center">
+                <a href="https://www.instagram.com/kernix.dev" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#6AAEFF] transition-colors">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contato.kernix@gmail.com" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#6AAEFF] transition-colors">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
         </div>
 
-        <p class="text-white w-full leading-relaxed mt-10 text-left">
-            Estamos arquitetando nossa base. Em breve, soluções em tecnologia e desenvolvimento de alto nível para o seu negócio.
-        </p>
-    
-        <div class="w-full flex flex-row gap-4 mt-10 text-[30px] justify-center">
-            <a href="https://www.instagram.com/kernix.dev" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#6AAEFF] transition-colors">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contato.kernix@gmail.com" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#6AAEFF] transition-colors">
-                <i class="fa-regular fa-envelope"></i>
-            </a>
-        </div>
-    </div>
-    <footer class="absolute bottom-0 w-full flex flex-col items-center gap-2 bg-[#060C1C] p-2 border-1 border-[red] font-sans">
-                <img src="assets/KERNEX_SIMBOLO_B_100px.webp" alt="Logo Kernex" class="w-[18px] opacity-40">
-                <p class="text-[12px] opacity-40 text-white">&copy; 2026. KERNIX | Todos os direitos reservados</p>
+    </main>
+
+    <footer class="w-full flex flex-col items-center gap-2 bg-[#060C1C] p-4 border-t border-[#6AAEFF]/20">
+        <img src="assets/KERNEX_SIMBOLO_B_100px.webp" alt="Logo Kernex" class="w-[18px] opacity-40">
+        <p class="text-[12px] opacity-40 text-white text-center">&copy; 2026. KERNIX | Todos os direitos reservados</p>
     </footer>
+
 </body>
 </html>
